@@ -14,7 +14,7 @@ class TestAufgabe1(unittest.TestCase):
         step2 = main.compute_r2d2_population(2)
         self.assertEqual(step2, result2)
 
-        result3 = (122, 13, 10)
+        result3 = (122, 13, 10)   
         step3 = main.compute_r2d2_population(3)
         self.assertEqual(step3, result3)
 
